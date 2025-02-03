@@ -1,0 +1,9 @@
+{
+  "name": "wfc-sleep",
+  "version": "1.0.0",
+  "description": "WFC Sleep - Sleep Better Website",
+  "main": "index.js",
+  "scripts": {
+    "start": "npx http-server src"
+  }
+} 
