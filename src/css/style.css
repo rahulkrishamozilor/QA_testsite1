@@ -1,0 +1,71 @@
+/* Auth Form Styles */
+.auth-form {
+    max-width: 400px;
+    margin: 40px auto;
+    padding: 32px;
+    background: white;
+    border-radius: 12px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+
+.form-group {
+    margin-bottom: 24px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 8px;
+    color: #4B5563;
+    font-weight: 500;
+}
+
+.form-group input {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #E5E7EB;
+    border-radius: 6px;
+    font-size: 16px;
+    transition: border-color 0.3s ease;
+}
+
+.form-group input:focus {
+    outline: none;
+    border-color: #0B4619;
+}
+
+.forgot-password {
+    display: block;
+    text-align: right;
+    color: #0B4619;
+    text-decoration: none;
+    font-size: 14px;
+    margin-top: 8px;
+}
+
+.submit-btn {
+    width: 100%;
+    padding: 12px;
+    background: #0B4619;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.submit-btn:hover {
+    background: #083613;
+}
+
+.auth-link {
+    text-align: center;
+    margin-top: 24px;
+    color: #4B5563;
+}
+
+.auth-link a {
+    color: #0B4619;
+    text-decoration: none;
+    font-weight: 500;
+} 
