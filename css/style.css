@@ -1,4 +1,9 @@
-@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Inter:wght@400;500;600&display=swap');
+@import 'base.css';
+@import 'components/navigation.css';
+@import 'components/forms.css';
+@import 'components/buttons.css';
+@import 'components/footer.css';
+@import 'utilities.css';
 
 /* Reset and base styles */
 * {
