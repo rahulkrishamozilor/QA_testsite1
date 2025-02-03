@@ -318,4 +318,84 @@ h1, h2, h3, h4, h5, h6 {
 
 .text-green-900 {
     color: #0B4619;
+}
+
+/* Hero Section */
+.hero-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 48px;
+    padding: 64px 0;
+}
+
+.hero-content {
+    flex: 1;
+}
+
+.hero-content h1 {
+    text-align: left;
+    font-size: 48px;
+    line-height: 1.2;
+    margin-bottom: 24px;
+}
+
+.hero-content p {
+    font-size: 20px;
+    color: #4B5563;
+    margin-bottom: 32px;
+}
+
+.hero-image {
+    flex: 1;
+}
+
+.hero-image img {
+    width: 100%;
+    height: auto;
+    border-radius: 24px;
+}
+
+.trustpilot-rating {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    margin-top: 24px;
+}
+
+.rating {
+    display: flex;
+    flex-direction: column;
+}
+
+.rating .score {
+    font-size: 24px;
+    font-weight: 700;
+    color: #333;
+}
+
+.rating .reviews {
+    font-size: 14px;
+    color: #6B7280;
+}
+
+@media (max-width: 768px) {
+    .hero-section {
+        flex-direction: column;
+        text-align: center;
+        padding: 32px 0;
+    }
+
+    .hero-content h1 {
+        text-align: center;
+        font-size: 36px;
+    }
+
+    .hero-content p {
+        font-size: 18px;
+    }
+
+    .trustpilot-rating {
+        justify-content: center;
+    }
 } 
