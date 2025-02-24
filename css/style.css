@@ -1,9 +1,16 @@
+/* Base imports */
 @import 'base.css';
+
+/* Component imports */
 @import 'components/navigation.css';
 @import 'components/forms.css';
 @import 'components/buttons.css';
 @import 'components/footer.css';
-@import 'utilities.css';
+
+/* Page-specific styles */
+@import 'pages/home.css';
+@import 'pages/guide.css';
+@import 'pages/meditation.css';
 
 /* Reset and base styles */
 * {
